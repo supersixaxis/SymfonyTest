@@ -5,8 +5,6 @@
 {% block body %}
     <h1>Inscription</h1>
     {{ form_errors(registrationForm) }}
-
-
     {{ form_start(registrationForm) }}
         {{ form_row(registrationForm.firstname, { label: 'Prénom' }) }}
         {{ form_row(registrationForm.lastname, { label: 'Nom' }) }}
